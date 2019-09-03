@@ -110,10 +110,10 @@ while True:
                         sleep(0)
     
     # 저장 버튼 클릭
-    pag.click(X_save_button, Y_save_button)
+    pag.press('enter')
     sleep(delay)
     # 초과 확인 버튼 클릭
-    pag.click(X_ok_button, Y_ok_button)
+    pag.press('enter')
     sleep(delay)
     # 신청 버튼 클릭
     pag.click(X_request_button, Y_request_button)
